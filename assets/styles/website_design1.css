@@ -6,12 +6,12 @@
 }
 
 body{
-   
+   position: absolute;
     display: block;
         min-height: 100vh;
         min-width: 100vh;
         background-color: whitesmoke;
- height: 2000px;
+ height: 100%;
     
    
 }
@@ -119,11 +119,16 @@ main{
 
 
 main> div{    
-    display: inline-flex;
+    
     position: absolute;
 }
 
+.block{
+    display: inline-block;
+}
+
 .nav a{
+    display: inline-flex;
     position: relative;
     z-index: 3;
    display: block;
@@ -134,12 +139,14 @@ main> div{
    border-radius: 0.5em;
 }
 .content{
+    display: inline-flex;
     position: relative;
     z-index: 1;
     display: block;
     margin-left: 10vw;
     margin-right: 5vw;
 }
+
 
 
 
