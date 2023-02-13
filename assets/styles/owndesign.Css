@@ -1,0 +1,203 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+        min-height: 100vh;
+        min-width: 100vh;
+        background-color: whitesmoke;
+ height: 100%;
+    
+   
+}
+header{
+  
+    display: block; 
+    padding: 0px;
+    height: 61vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    position: relative;
+    position: sticky;
+       
+
+}
+
+
+header div{
+    position: relative;
+    height: 55vh;
+    width: inherit;
+    overflow: hidden;
+}
+
+
+header h1{
+    font-size: 3em; 
+    z-index: 3;
+    position: absolute;
+    top: 1em;
+    left: 2em;
+
+}
+
+
+header h2{
+    position: relative;
+    text-align: center;
+    background-color:rgb(4, 4, 122);
+    color: white;
+    z-index: 1;
+    height: 1em;
+    padding: 0.5em;
+
+}
+
+
+
+#logo{
+    position: absolute;
+    float: right;
+    width: 120px;
+     height:115px;
+     z-index: 2;
+     position: relative;
+     top: -50px;
+     right: 60px;;
+     background-color: aliceblue;
+     border-radius: 30px;
+     }
+
+
+#image1{
+/*display: none;*/
+    object-fit: cover;
+    z-index: 1;
+    position: relative;
+    top: -90px;
+    right: 32px;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#teamname {
+    display: inline;
+    position: relative;
+
+}
+
+
+#logo{
+    display: inline;
+    z-index: 2;
+    
+
+}
+#logo:hover{
+    transform: rotate(0.125turn);
+}
+
+
+.pagename{
+    position: relative;
+     height: auto;
+     width: 100%;
+}
+
+
+main{
+    background-color: rgb(236, 236, 236);
+    margin-top:  5vh;
+    min-height: 100vh;
+    padding: 2rem;
+    margin-left: 20vw;
+    margin-right: 20vw;
+
+}
+
+
+main> div{    
+    
+    position: absolute;
+}
+
+.block{
+    display: inline-block;
+}
+nav{
+    width: 100vw;
+    display: inline-flex;
+    background-color:rgb(4, 4, 122);
+    padding: 2em ;
+}
+nav h3{
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+}
+.nav ul li{
+    display: inline;
+    float:inline-end;
+    position: relative;
+}
+.nav a{
+    display: inline-flex;
+    position: relative;
+    z-index: 3; 
+   color: rgb(228, 226, 226);
+   background-color: rgb(177, 10, 10);
+   margin: 0.25em;
+   padding: 0.5em;  
+   border-radius: 0.5em;
+}
+.nav a:hover{
+    
+    background-color:rgb(24, 20, 20);
+    padding: 1em ;
+
+}
+.content{
+    display: inline-flex;
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin-left: 10vw;
+    margin-right: 5vw;
+}
+
+footer{
+    position: relative;
+    bottom:0; 
+    left:0;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-bottom: 7vh;
+    height: auto;
+    width: 80vw;
+    background-color: rgba(55, 55, 206, 0.774);
+    color: whitesmoke;
+    
+}
+
+footer p{
+    color: whitesmoke;
+}
+
+footer h3{
+    color: whitesmoke;
+}
+footer>div{
+    margin-right: 11vw;
+    margin-left: 11vw;
+    display: inline-flex;    
+    position: relative;
+}
+footer li{
+    display: block;
+}
