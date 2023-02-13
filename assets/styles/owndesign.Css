@@ -192,12 +192,13 @@ footer p{
 footer h3{
     color: whitesmoke;
 }
-footer>div{
-    margin-right: 11vw;
-    margin-left: 11vw;
-    display: inline-flex;    
+footer > .list{
+    
+    display: inline-block;
+    padding: 10%;
+    margin-right: 2vw;
+    margin-left: 2vw;  
     position: relative;
 }
-footer li{
-    display: block;
-}
+
+
