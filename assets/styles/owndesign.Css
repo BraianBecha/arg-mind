@@ -28,6 +28,8 @@ header{
 
 
 #logo{
+    left: -12em;
+    top: -1em;
     position: relative;
     float: left;
     z-index: 3;
