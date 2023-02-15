@@ -130,23 +130,18 @@ th{
 }
 
 footer{
-
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
     gap: 1em;
-    padding: 3em;
-    justify-content: center;
+    padding: 1em;    
     position: relative;
-    bottom:0; 
-    left:0;
     margin-left: 10vw;
     margin-right: 10vw;
-    padding-bottom: 7vh;
-    height: auto;
-    width: 80vw;
+    width: 90vw;
     background-color:rgb(4, 4, 122);
-    color: whitesmoke;
-    
+    color: whitesmoke;    
    text-decoration-line:none;
     
 }
@@ -156,7 +151,7 @@ footer  a{
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
-    padding: 3em;
+    padding: 1.1em;
     justify-content: center;
     position: relative;
 }
