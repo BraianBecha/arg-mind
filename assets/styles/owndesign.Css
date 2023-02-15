@@ -107,15 +107,15 @@ main{
     display: flex;
     flex-direction:column;
     position: relative;
-    z-index: 1;
-    margin-left: 10vw;
-    margin-right: 5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 
 .content .table1,td,tr {
     border: 2px solid rgb(4, 4, 122);
-    padding: 1em 1em;
+    padding: 1em;
+    width: 100%;
 }
 
 .table1{
