@@ -115,7 +115,6 @@ main{
 .content .table1,td,tr {
     border: 2px solid rgb(4, 4, 122);
     padding: 1em;
-    width: 100%;
 }
 
 .table1{
