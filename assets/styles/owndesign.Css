@@ -112,21 +112,37 @@ main{
 }
 
 
-.content .table1,td,tr {
-    border: 2px solid rgb(4, 4, 122);
-    padding: 1em;
-}
 
 .table1{
-    border: 2px solid blue;
+    
+    width: 100%;
+    background-color: whitesmoke;
+    border: 2px solid rgb(4, 4, 122);
     border-collapse: collapse;
+}
+.table1 td,tr {
+    border: 2px solid rgb(4, 4, 122);
+    padding: 1em;
+    border-radius: 2.5em;
+}
+
+
+.table1 .map-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 2.5em;
+    width: 175px;
+    height: 131px;
+    border:0;
 }
 
 
 
 th{
     background-color:rgb(4, 4, 122);
+    
    color: #fff;
+   padding: 1em;
 }
 
 footer{
