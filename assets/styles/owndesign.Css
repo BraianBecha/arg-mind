@@ -280,6 +280,24 @@ border-radius: 1em;
 width: 6em;
    }
 
+   .joinbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:yellow;
+    padding: 1em;
+    background-color:  rgb(177, 10, 10);
+    border-radius: 1em;
+    border: 3px;
+   }
+   .joinbutton>a :hover{
+    background-color: greenyellow;
+    transform: scale(1.5 , 1.5);
+    transform-origin: center;
+    padding: 1em;
+   }
+
+
   
 
 
