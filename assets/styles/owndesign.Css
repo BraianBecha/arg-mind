@@ -240,6 +240,42 @@ section div p{
 }
 
 
+form{
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: space-between;
+    
+   }
 
+   form h3{
+    color: whitesmoke;
+    background-color:rgb(4, 4, 122);
+    padding: 1em;
+    border-radius: 1em;
+    
+   }
+
+   
+   form fieldset{
+    padding: 3%;
+    
+   }
+   .agree{
+    background-color: green;
+    border-radius: 1em;
+    padding: 0.1em;
+    width: 5em;
+   }
+   
+
+  
+
+
+   
 
 
