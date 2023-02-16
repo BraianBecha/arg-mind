@@ -291,6 +291,7 @@ width: 6em;
     border: 3px;
    }
    .joinbutton>a :hover{
+    border-radius: 1em;
     background-color: greenyellow;
     transform: scale(1.5 , 1.5);
     transform-origin: center;
