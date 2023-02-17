@@ -280,6 +280,12 @@ border-radius: 1em;
 width: 6em;
    }
 
+   form .grade{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+   }
+
    .joinbutton{
     display: flex;
     align-items: center;
